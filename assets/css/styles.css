@@ -1,0 +1,98 @@
+.head{
+    color: darkslategrey;
+    text-shadow: 1px 1px 1px black;
+    font-weight: 700;
+}
+.panel-bg{
+    min-height: 40vh;
+    background-color: lightgrey;
+    background-image: url('https://wallpapermemory.com/uploads/437/sunset-background-full-hd-1920x1080-199877.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.dashboard{
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.7);;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px -3px black;
+}
+.dashboard input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+}
+.dashboard input,button{
+    color: darkslategrey;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+}
+.dashboard button{
+    width: 50%;
+
+}
+.dashboard select{
+    width: 100%;
+    font-size: 20px;
+    padding:10px;
+    border: 1px solid black;
+    height: 100%;
+}
+.task-head{
+    color: darkslategrey;
+    text-shadow: 1px 1px 1px black;
+    font-weight: 700;
+    font-size: 35px;
+    border-top: 2px solid darkslategrey;
+}
+.notify{
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 1px black;
+}
+.task-list-outer{
+    background-color: lightgrey;
+}
+.myTask-card{
+    background-color: darkslategray;
+    font-size: 20px;
+    color:goldenrod;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px -1px black;
+}
+#task-date{
+    color:orangered;
+}
+#myCheck{
+    width: 30px;
+    height:30px;
+}
+.myBtn{
+    background-color: goldenrod;
+    color: honeydew;
+    width: 60%;
+    font-weight: 700 !important;
+}
+.delete{
+    color: chartreuse;
+    font-size: 25px;
+}
+.taskDone{
+    text-decoration:line-through;
+    color:olive;
+}
+.modal-dialogue{
+    background-color: rgba(0,0,0,0.5);
+}
+.modal-title{
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px black;
+}
+.modal-title> .fa{
+    color: yellow;
+}
