@@ -58,7 +58,7 @@
             <div class="container-fluid myTask-card py-2 mb-2">
                 <div class="row ">
                     <div class="col-1 p-0 d-flex justify-content-center">
-                       <a data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <input type="checkbox" data-id="<%= i._id %>" data-status="<%= i.status %>" id="myCheck" class="myCheck"></a>
+                       <a data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <input type="checkbox" data-id="<%= i._id %>" data-status="<%= i.status %>" id="myCheck" class="myCheck ml-1"></a>
                     </div>
                     <div class="col-8 task-title">
                         <%= i.task %>
@@ -69,7 +69,7 @@
                 </div>
                 <hr>
                 <div class="row mt-2">
-                    <div class="col-2 offset-1 d-flex align-items-center" id="task-date">
+                    <div class="col-2 offset-1 d-flex align-items-center" id="task-date" title="Due-Date">
                         <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;<%= i.date %>
                     </div>
                     <div class="col-2 offset-7 delete" title="delete-task">
@@ -81,12 +81,7 @@
         </div>
     </secton>
 
-    <section id="modal">
-        <!-- Button trigger modal
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                Launch static backdrop modal
-            </button> -->
-            
+    <section id="modal">            
             <!-- Modal -->
             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog">
@@ -106,6 +101,28 @@
                 </div>
             </div>
     </section>
+
+    <footer>
+        <div class="container-fluid py-2">
+            <div class="row footer-head justify-content-center">
+                CODING NINJA&copy;
+            </div>
+            <div class="row justify-content-center myName">
+                Pranay Ranjan
+            </div>
+            <div class="row social justify-content-center mt-4">
+                <div class="s1 d-flex justify-content-center align-items-center" title="quora"><i class="fa fa-quora" aria-hidden="true"></i>
+                </div>
+                <div class="s2 d-flex justify-content-center align-items-center" title="telegram"><i class="fa fa-telegram" aria-hidden="true"></i>
+                </div>
+                <div class="s3 d-flex justify-content-center align-items-center" title="whats-app"><i class="fa fa-whatsapp" aria-hidden="true"></i>
+                </div>
+                <div class="s4 d-flex justify-content-center align-items-center" title="reddit"><i class="fa fa-reddit-alien" aria-hidden="true"></i></div>
+                <div class="s5 d-flex justify-content-center align-items-center" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 <!------------------JavaScript--------------------->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
