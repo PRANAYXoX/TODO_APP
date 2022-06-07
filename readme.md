@@ -1,4 +1,4 @@
-TODO LIST PROJECT:
+<b>TODO LIST PROJECT:<b>
 
 Softwares Used:
 1) HTML
