@@ -17,8 +17,8 @@ Code Editor Used:
 
 FEATURES:
 
---This web application allowes user to store Important tasks alog with their catagories and due dates.
---It has a very attractive GUI and Handy options to mark the tasks complete via checkbox.
---User can delete completed tasks via the thrash-bin option provided on each and every task card.
---This application also makes efficient use of "Modals" to ensure that the user does not perform any undesired task by mistake.
---The dashboard panel also displays a small notificatiion message on insertion updation and deletion of tasks.
+--This web application allowes user to store Important tasks alog with their catagories and due dates.<br>
+--It has a very attractive GUI and Handy options to mark the tasks complete via checkbox.<br>
+--User can delete completed tasks via the thrash-bin option provided on each and every task card.<br>
+--This application also makes efficient use of "Modals" to ensure that the user does not perform any undesired task by mistake.<br>
+--The dashboard panel also displays a small notificatiion message on insertion updation and deletion of tasks.<br>
